@@ -1,0 +1,19 @@
+
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @contact.firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @contact.lastname %>
+</p>
+
+<p>
+  <strong>Rank:</strong>
+  <%= @contact.rank %>
+</p>
+
+<%= link_to 'Edit', edit_contact_path(@contact), class:"btn btn-secondary" %> |
+<%= link_to 'Back', contacts_path, class:"btn btn-secondary" %>
